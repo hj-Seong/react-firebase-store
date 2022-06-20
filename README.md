@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 파이어 베이스 연결하기
+
+/database/firebase.js 의 파일의 계정정보를 넣고 실행
+
 ## Available Scripts
 
 In the project directory, you can run:
