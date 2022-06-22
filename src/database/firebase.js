@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  //  파이어베이스 본인 계정 넣어서 확인
+  // 본인의 파이어베이스 값 넣을 것
 };
 
 // Initialize Firebase

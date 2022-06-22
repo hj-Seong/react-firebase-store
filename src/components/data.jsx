@@ -18,6 +18,10 @@ const Data = () => {
     querySnapshot.forEach((doc) => {
       //querySnapshot로 문서들을 가져오고 각각의 문서는 doc으로 확인
       console.log(`${doc.id} => ${doc.data().last}`);
+
+      console.log(doc.data());
+      console.dir(doc.data());
+
       array.push({ last: doc.data().last, first: doc.data().last });
     });
     setDocData(array);
